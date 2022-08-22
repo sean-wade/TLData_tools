@@ -1,0 +1,363 @@
+{
+    "infos": {
+        "tl_package_id": 0,
+        "tl_frame_id": 0,
+        "image_path": "f30/1655361292.500000000.jpg",
+        "camera_sensor_id": "f30",
+        "image_height": 1080,
+        "image_width": 1920
+    },
+    "objects": [
+        {
+            "id": 0,
+            "class": "traffic_light",
+            "bbox": [
+                372.01299,
+                651.596027,
+                357.520757,
+                611.356584
+            ],
+            "direction": "back",
+            "orientation": "vertical",
+            "state": "unknown",
+            "indication": "motor",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "not_relevant",
+            "child_num": "unknown",
+            "child_division": [],
+            "child_color": [],
+            "child_shape": []
+        },
+        {
+            "id": 1,
+            "class": "traffic_light",
+            "bbox": [
+                417.089508,
+                644.718085,
+                383.358505,
+                617.290143
+            ],
+            "direction": "back",
+            "orientation": "square",
+            "state": "unknown",
+            "indication": "digit",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "not_relevant",
+            "child_num": "unknown",
+            "child_division": [],
+            "child_color": [],
+            "child_shape": []
+        },
+        {
+            "id": 2,
+            "class": "traffic_light",
+            "bbox": [
+                445.613027,
+                646.944589,
+                430.868472,
+                607.049697
+            ],
+            "direction": "back",
+            "orientation": "vertical",
+            "state": "unknown",
+            "indication": "motor",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "not_relevant",
+            "child_num": "unknown",
+            "child_division": [],
+            "child_color": [],
+            "child_shape": []
+        },
+        {
+            "id": 3,
+            "class": "traffic_light",
+            "bbox": [
+                511.404415,
+                643.83485,
+                497.645643,
+                605.050945
+            ],
+            "direction": "back",
+            "orientation": "vertical",
+            "state": "unknown",
+            "indication": "motor",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "not_relevant",
+            "child_num": "unknown",
+            "child_division": [],
+            "child_color": [],
+            "child_shape": []
+        },
+        {
+            "id": 4,
+            "class": "traffic_light",
+            "bbox": [
+                896.269855,
+                666.245738,
+                886.864963,
+                641.490901
+            ],
+            "direction": "front",
+            "orientation": "vertical",
+            "state": "on",
+            "indication": "motor",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "not_relevant",
+            "child_num": "three",
+            "child_division": [
+                [
+                    886.864963,
+                    641.490901,
+                    896.269855,
+                    650.452329
+                ],
+                [
+                    886.864963,
+                    650.452329,
+                    896.269855,
+                    658.615213
+                ],
+                [
+                    886.864963,
+                    658.615213,
+                    896.269855,
+                    666.245738
+                ]
+            ],
+            "child_color": [
+                "red",
+                "dark",
+                "dark"
+            ],
+            "child_shape": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ]
+        },
+        {
+            "id": 5,
+            "class": "traffic_light",
+            "bbox": [
+                939.302346,
+                667.271355,
+                930.664449,
+                642.618442
+            ],
+            "direction": "front",
+            "orientation": "vertical",
+            "state": "on",
+            "indication": "motor",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "relevant",
+            "child_num": "three",
+            "child_division": [
+                [
+                    930.664449,
+                    642.618442,
+                    939.302346,
+                    650.83608
+                ],
+                [
+                    930.664449,
+                    650.83608,
+                    939.302346,
+                    659.053717
+                ],
+                [
+                    930.664449,
+                    659.053717,
+                    939.302346,
+                    667.271355
+                ]
+            ],
+            "child_color": [
+                "red",
+                "dark",
+                "dark"
+            ],
+            "child_shape": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ]
+        },
+        {
+            "id": 6,
+            "class": "traffic_light",
+            "bbox": [
+                986.701613,
+                666.586766,
+                963.457276,
+                647.927654
+            ],
+            "direction": "front",
+            "orientation": "square",
+            "state": "on",
+            "indication": "digit",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "relevant",
+            "child_num": "one",
+            "child_division": [],
+            "child_color": [
+                "red"
+            ],
+            "child_shape": [
+                "digit:04"
+            ]
+        },
+        {
+            "id": 7,
+            "class": "traffic_light",
+            "bbox": [
+                1019.707566,
+                670.597002,
+                1010.125756,
+                644.833736
+            ],
+            "direction": "front",
+            "orientation": "vertical",
+            "state": "off",
+            "indication": "motor",
+            "occlusion": "not_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "relevant",
+            "child_num": "three",
+            "child_division": [
+                [
+                    1010.125756,
+                    644.833736,
+                    1019.707566,
+                    653.421491
+                ],
+                [
+                    1010.125756,
+                    653.421491,
+                    1019.707566,
+                    662.009247
+                ],
+                [
+                    1010.125756,
+                    662.009247,
+                    1019.707566,
+                    670.597002
+                ]
+            ],
+            "child_color": [
+                "dark",
+                "dark",
+                "dark"
+            ],
+            "child_shape": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ]
+        },
+        {
+            "id": 8,
+            "class": "traffic_light",
+            "bbox": [
+                1346.03581,
+                738.149061,
+                1338.950198,
+                722.025586
+            ],
+            "direction": "front",
+            "orientation": "vertical",
+            "state": "on",
+            "indication": "pedestrian",
+            "occlusion": "half_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "not_relevant",
+            "child_num": "two",
+            "child_division": [
+                [
+                    1338.950198,
+                    722.025586,
+                    1346.03581,
+                    730.087324
+                ],
+                [
+                    1338.950198,
+                    730.087324,
+                    1346.03581,
+                    738.149061
+                ]
+            ],
+            "child_color": [
+                "red",
+                "unknown"
+            ],
+            "child_shape": [
+                "unknown",
+                "unknown"
+            ]
+        },
+        {
+            "id": 9,
+            "class": "traffic_light",
+            "bbox": [
+                1125.797347,
+                698.179049,
+                1115.4667,
+                671.977782
+            ],
+            "direction": "front",
+            "orientation": "vertical",
+            "state": "on",
+            "indication": "motor",
+            "occlusion": "heavily_occluded",
+            "truncation": "not_truncated",
+            "blur": "not_blur",
+            "relevance": "relevant",
+            "child_num": "three",
+            "child_division": [
+                [
+                    1115.4667,
+                    671.977782,
+                    1125.797347,
+                    680.711539
+                ],
+                [
+                    1115.4667,
+                    680.711539,
+                    1125.797347,
+                    689.445293
+                ],
+                [
+                    1115.4667,
+                    689.445293,
+                    1125.797347,
+                    698.179049
+                ]
+            ],
+            "child_color": [
+                "red",
+                "unknown",
+                "unknown"
+            ],
+            "child_shape": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ]
+        }
+    ]
+}
